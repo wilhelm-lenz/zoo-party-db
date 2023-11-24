@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("./assets/fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("./assets/fonts/Raleway-Regular.ttf");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #212529;
+  font-size: 1.6rem;
+  color: #c8c8c8;
+  font-family: "Raleway-Regular";
+}
+
+.section-animals {
+  text-align: center;
+  margin-top: 4rem;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding-inline: 5%;
+}
+
+.heading-primary {
+  font-family: "Raleway-Bold";
+  margin-top: 4rem;
+}
+
+.heading-secondary {
+  margin-block: 1.6rem 3.2rem;
+  font-family: "Raleway-Bold";
+  color: #6f6b96;
+}
