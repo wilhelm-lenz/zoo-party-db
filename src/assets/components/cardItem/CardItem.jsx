@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from "uuid";
+
 const CardItem = (props) => {
   return (
     <article className="card-item">
@@ -11,9 +13,9 @@ const CardItem = (props) => {
       </div>
 
       <ul className="card-item-fun-facts">
-        {props.funFacts.map((funFuct, index) => {
+        {props.funFacts.map((funFuct) => {
           return (
-            <li className="card-item-fun-fact" key={index}>
+            <li className="card-item-fun-fact" key={uuidv4()}>
               {funFuct}
             </li>
           );

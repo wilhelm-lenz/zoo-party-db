@@ -34,15 +34,15 @@ body {
   max-width: 144rem;
   margin: 0 auto;
   padding-inline: 5%;
-}
 
-.heading-primary {
-  font-family: "Raleway-Bold";
-  margin-top: 4rem;
-}
+  .heading-primary {
+    font-family: "Raleway-Bold";
+    margin-top: 4rem;
+  }
 
-.heading-secondary {
-  margin-block: 1.6rem 3.2rem;
-  font-family: "Raleway-Bold";
-  color: #6f6b96;
+  .heading-secondary {
+    margin-block: 1.6rem 3.2rem;
+    font-family: "Raleway-Bold";
+    color: #6f6b96;
+  }
 }
