@@ -10,7 +10,7 @@
     box-shadow: 3px 3px 10px 0 #7159ad;
   }
 
-  & .card-item-img {
+  &:hover .card-item-img {
     transform: rotate(360deg);
   }
 
